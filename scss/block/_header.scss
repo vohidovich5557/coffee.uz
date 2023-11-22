@@ -32,6 +32,13 @@
     /* 125% */
     letter-spacing: 0.923px;
     text-transform: uppercase;
+    transition: 0.3s;
+    transform: scale(0);
+
+}
+
+.nav_link::before{
+    color: #a44d4d;
 
 }
 
